@@ -25,6 +25,8 @@ a   Toggles between normal display
 
 -   Go up one directory
 
+C-w w Switch between windows
+
 ## Execute command directly by :!
 
 :! ls -la
