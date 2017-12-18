@@ -49,9 +49,17 @@ gT  switch to previous tab
 
 :tabclose close current tab
 
+or
+
+:tabc
+
 :tabclose {i} close i-th tab
 
 :tabonly  close all other tabs
+
+or
+
+:tabo
 
 :tabedit {file} edit file in new tab
 
