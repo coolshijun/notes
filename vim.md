@@ -10,6 +10,28 @@
 
 :set nu!      hide line number
 
+## Copy & Paste
+
+dd    cut current line
+
+yy    copy current line
+
+p     paste curret
+
+v, use cursor to select range, y  copy range
+
+p     paste clipboard
+
+## Copy & Paste between different vim instances
+
+Use ESC m a to mark first line
+
+Use ESC m b to mark last line
+
+Use :'a,'b w! temp to write out range to a temp file
+
+In destination session, Use ESC :r temp to read in text
+
 
 ## Tree View (netrw)
 
