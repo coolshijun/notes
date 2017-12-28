@@ -1,5 +1,16 @@
 # VIM Shortcuts
 
+## Options
+
+:set list     show whitespace character
+
+:set nolist or :set list!  hide whitespace character
+
+:set nu       show line number
+
+:set nu!      hide line number
+
+
 ## Tree View (netrw)
 
 :Explore or :Ex Open the netrw
