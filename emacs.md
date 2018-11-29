@@ -70,6 +70,32 @@ C-x o Switch between windows
 C-M-v Scroll down next window
 
 
+## Editing
+
+<DEL> Delete a character before cursor
+
+C-d Delete a character after cursor
+
+M-<DEL> Delete a word before cursor
+  
+M-d Delete a word after cursor
+
+C-k Delete all characters after cursor to line end
+
+M-k Delete all characters after cursor to sentence end
+
+C-@ Start to select region
+
+C-w delete content in selected region
+
+C-y yanking (paste)
+
+M-y yanking the one before last
+
+C-_  or C-x u  Undo
+
+
+  
 
 
 
