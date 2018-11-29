@@ -95,7 +95,11 @@ M-y yanking the one before last
 C-_  or C-x u  Undo
 
 
-  
+## Search
+
+C-s Search
+
+C-r Revers search
 
 
 
