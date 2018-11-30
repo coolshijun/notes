@@ -90,6 +90,8 @@ C-@ Start to select region
 
 C-w delete content in selected region
 
+M-w copy conetent in selected region
+
 C-y yanking (paste)
 
 M-y yanking the one before last
