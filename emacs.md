@@ -39,6 +39,8 @@ M->   Move to the file end
 
 C-l C-l Move current line to middle/top/bottom
 
+M-r   Move cursor to middle/top/bottom
+
 
 ## Command
 
@@ -94,6 +96,9 @@ M-y yanking the one before last
 
 C-_  or C-x u  Undo
 
+C-o   Insert blank line
+
+C-x C-o Delete blank lines
 
 ## Search
 
