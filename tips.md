@@ -13,3 +13,7 @@
 
     Just use Alfred to switch apps and ensure each app only have one window
 
+3. Install python via Pyenv on Mojave
+
+    env CPPFLAGS="-I/usr/local/opt/zlib/include" pyenv install 3.7.1
+    
