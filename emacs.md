@@ -58,8 +58,15 @@ C-x C-c Exit
 
 C-g termiate command
 
+## Menu
+
+M-` Open the command menu
+
+F10 Open the visual menubar
 
 ## Window
+
+C-X 0 Close current window
 
 C-x 1 Close help window
 
@@ -71,6 +78,31 @@ C-x o Switch between windows
 
 C-M-v Scroll down next window
 
+C-x { Shrink window horizontally
+
+C-x } Enlarge window horizontally
+
+C-^ Enlarge window verticially
+
+C-x - Shrink window if larger than buffer
+
+C-x + Balance windows
+
+C-x 4 b Switch to buffer other window
+
+C-x 4 C-o display buffer
+
+C-x 4 f find file other window
+
+C-x 4 d dired other window
+
+C-x 4 r find file read only other window
+
+C-x 4 0 kill buffer and window
+
+C-x 5 2 New window
+
+C-x 5 f New window and open file
 
 ## Editing
 
@@ -107,6 +139,21 @@ C-x C-o Delete blank lines
 C-s Search
 
 C-r Revers search
+
+## Run shell
+
+M-! cmd RET Open "*Shell Command Output*" window, and print the result there
+
+M-| cmd RET Run shell command
+
+M-x shell "*Shell*", embedded shell
+
+M-x term "*Terminal*" complete shell
+
+M-x eshell Emacs its own shell
+
+**C-x prefix should be replaced to C-c for all the shortcut when you are in shell window** 
+
 
 
 
