@@ -1,5 +1,125 @@
 # VIM Shortcuts
 
+## Motion
+
+h,j,k,l   Left, Down, Up, Right
+
+^ Begin of line
+
+$ End of line
+
+w, W Next word(WORD)
+
+b, B Previous word(WORD)
+
+e, E end word(WORD)
+
+( Begin sentence
+
+) End sentence
+
+{ Begin paragraph
+
+} End paragraph
+
+H Screen top
+
+M Screen middle
+
+L Screen bottom
+
+Ctrl + f Page up
+
+Ctrl + b Page down
+
+Ctrl + e Scroll line up
+
+Ctrl + y Scroll line down
+
+zt  Scroll cursor to top
+
+zb  Scroll cursor to bottom
+
+zz  Scroll cursor to center
+
+gg  Top of file
+
+G   Bottom of file
+
+- , + Previous line, Next line
+
+
+## Search
+
+/ find
+
+? find rev.
+
+n next find
+
+N prev find
+
+\# find prev identical
+
+\* find next indetical
+
+## Edit
+
+d Delete
+
+D Delete to eol
+
+dd delete line
+
+<< unintent line
+
+>> indent line
+
+x Delete char
+
+X Backspace
+
+y yank
+
+Y yank line
+
+p paste after
+
+P paste before
+
+J join lines
+
+## Mode
+i insert mode
+
+I insert at bol
+
+a append
+
+A append at eol
+
+c change
+
+C change to eol
+
+r replace char
+
+R replace mode
+
+s subst char
+
+S subst line
+
+o open below
+
+O open above
+
+v visual mode
+
+V visual lines
+
+
+
 ## Options
 
 :set list     show whitespace character
