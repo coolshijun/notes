@@ -82,7 +82,7 @@ C-x { Shrink window horizontally
 
 C-x } Enlarge window horizontally
 
-C-^ Enlarge window verticially
+C-x ^ Enlarge window verticially
 
 C-x - Shrink window if larger than buffer
 
