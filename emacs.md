@@ -106,11 +106,11 @@ C-x 5 f New window and open file
 
 ## Editing
 
-<DEL> Delete a character before cursor
+\<DEL\> Delete a character before cursor
 
 C-d Delete a character after cursor
 
-M-<DEL> Delete a word before cursor
+M-\<DEL>\ Delete a word before cursor
   
 M-d Delete a word after cursor
 
