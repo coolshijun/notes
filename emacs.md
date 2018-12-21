@@ -7,7 +7,6 @@ C-v   Next screen
 
 M-v   Previous screen
 
-
 C-p   Previous line
 
 C-n   Next line
@@ -32,6 +31,17 @@ M-a   Move to last sentence start
 M-e   Move to next sentence end
 
 
+M-{   Move back to previous paragraph
+
+M-}   Move forward to next paragraph
+
+M-h   Put point adnd mark around this paragraph
+
+C-x \[ Move point to previous page
+
+C-x ] Move point to next page
+
+C-x C-p Put point and mark around this page
 
 M-<   Move to the file start
 
@@ -120,6 +130,8 @@ M-k Delete all characters after cursor to sentence end
 
 C-@ Start to select region
 
+M-@ Set mark at the end of the next word
+
 C-w delete content in selected region
 
 M-w copy conetent in selected region
@@ -133,6 +145,8 @@ C-_  or C-x u  Undo
 C-o   Insert blank line
 
 C-x C-o Delete blank lines
+
+M-t transpose two words
 
 ## Search
 
