@@ -114,6 +114,16 @@ C-x 5 2 New window
 
 C-x 5 f New window and open file
 
+## Dired
+
+f Visit file described on current line
+
+o Like f, but use another window
+
+C-o User another windows to display file, but not select that window
+
+^ Visit parent directory
+
 ## Editing
 
 \<DEL\> Delete a character before cursor
