@@ -29,3 +29,15 @@
 
     Ctrl + `
 
+5. CommandLineTools error
+   
+   xcode-select --install
+
+6. Change Mac Brew 
+
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
+git remote set-url origin git://mirrors.ustc.edu.cn/homebrew-core.git
+echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.bash_profile
+source ~/.bash_profile
+brew update
+
