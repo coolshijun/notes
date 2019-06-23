@@ -1,3 +1,7 @@
+
+Default prefix - > ctrl + b
+
+
 # tmux commands
 
 tmux list-sessions or tmux ls
