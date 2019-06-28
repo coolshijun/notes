@@ -41,3 +41,6 @@ echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 source ~/.bash_profile
 brew update
 
+7. Replace string in files
+
+   grep --null -lr "old_string" | xargs --null sed -i 's/old_string/new_string/g'
