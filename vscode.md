@@ -41,6 +41,15 @@
 
 ⌘ + →       Go to line end
 
+⌘ + F       Find
+
+⌘ + G       Find next
+
+⌘ + L       Select current line
+
+
+
+
 
 
 ⌥ + ↑       Move line up
@@ -63,6 +72,13 @@
 
 ⌃ + G       Goto line
 
+⌃ + -       Go back to last position
+
+⌃ + ⇧ + -   Go forward to last position
+
+⌃ + TAB     Switch to next tab
+
+⌃ + ⇧ + TAB Switch to previous tab
 
 
 
