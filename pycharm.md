@@ -47,3 +47,6 @@ F3 -> Toggle bookmark
 ⌘ + B -> Navigation to declaration
 
 
+### Reference
+
+https://www.jetbrains.com/help/pycharm/keyboard-shortcuts-by-category.html
