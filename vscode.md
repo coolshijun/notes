@@ -83,3 +83,6 @@
 
 
 
+### Reference
+
+https://defkey.com/visual-studio-code-mac-shortcuts
