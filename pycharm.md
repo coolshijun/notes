@@ -14,6 +14,18 @@ Double "⇧" -> Search Everywhere
 
 ⌃ + ` -> Switch Scheme / View Mode
 
+⌘ + + -> Expand
+
+⌘ + - -> Collapse
+
+⌥ + ⌘ + + -> Expand Recursively
+
+⌥ + ⌘ + - -> Collapse Recursively
+
+⇧ + ⌘ + + -> Expand All
+
+⇧ + ⌘ + - -> Collapse All
+
 ⌘ + ↑ -> Navigation bar
 
 ⌥ + F12 -> Toggle Terminal
