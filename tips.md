@@ -44,3 +44,8 @@ brew update
 7. Replace string in files
 
    grep --null -lr "old_string" | xargs --null sed -i 's/old_string/new_string/g'
+   
+8. Forward port in linux
+
+iptables -t nat -A PREROUTING -p tcp -d 10.66.136.183 --dport 8080 -j DNAT --to-destination 127.0.0.1:8001
+
