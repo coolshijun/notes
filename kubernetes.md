@@ -56,6 +56,9 @@ kubectl taint nodes --all node-role.kubernetes.io/master-
 ## sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 
+## make the anonymous user can access the api url
+
+kubectl create clusterrolebinding cluster-system-anonymous --clusterrole=cluster-admin --user=system:anonymous
     
 
 
