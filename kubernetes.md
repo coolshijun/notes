@@ -24,7 +24,43 @@ systemctl daemon-reload
 
 systemctl restart kubelet
 
+## Decide network model before move on
 
+sysctl net.bridge.bridge-nf-call-iptables=1
+
+ufw disable
+
+
+kubeadm init --pod-network-cidr=10.244.0.0/16
+
+kubectl get pods --all-namespaces
+
+kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+
+## let the only master can run pod
+
+kubectl taint nodes --all node-role.kubernetes.io/master-
+
+
+
+## As normal user
+
+mkdir -p $HOME/.kube
+
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+
+## As root user
+
+export KUBECONFIG=/etc/kubernetes/admin.conf
+
+## Join cluster using the output of kubeadm init
+
+kubeadm join 10.66.136.183:6443 --token qc46ux.f4hgbf6sl6ba5r6r \
+    --discovery-token-ca-cert-hash sha256:5d3a1bfd90b9be7894accea9f49a5e9511fe0d2f862c6f8a4d1034f336ba3aa2
+    
 
 
 
