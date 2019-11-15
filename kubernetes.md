@@ -18,6 +18,10 @@ apt-get install -y kubelet kubeadm kubectl
 
 apt-mark hold kubelet kubeadm kubectl
 
+# THIS IS CRITICAL, swap must be off, otherwise kubelet will not start correctly!!!!
+
+## systemctl enable kubelet
+
 swapoff -a
 
 systemctl daemon-reload
