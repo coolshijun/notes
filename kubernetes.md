@@ -69,6 +69,9 @@ kubectl create clusterrolebinding cluster-system-anonymous --clusterrole=cluster
 sudo sysctl net.ipv4.conf.all.rp_filter=0
 
 
+
+kubectl proxy --address 0.0.0.0 --accept-hosts '.*'
+
 # Install K8s via Minikube
 ## Install Kubectl
 ## Install Minikube
