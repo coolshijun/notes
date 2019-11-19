@@ -65,6 +65,9 @@ kubectl create clusterrolebinding cluster-system-anonymous --clusterrole=cluster
     
 
 
+## CrashLoopbackOff, possibly can be resovlved by below line
+sudo sysctl net.ipv4.conf.all.rp_filter=0
+
 
 # Install K8s via Minikube
 ## Install Kubectl
