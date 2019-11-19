@@ -24,21 +24,33 @@ apt-mark hold kubelet kubeadm kubectl
 
 swapoff -a
 
+### Perminately disable swap
+### /etc/fstab, comment swap line
+
 systemctl daemon-reload
 
+### Kubelet will to start correclty before kubeadm init!!
 systemctl restart kubelet
 
-## Decide network model before move on, we choose Calico
+## Decide network model before move on, we choose canal
 
-kubeadm init --pod-network-cidr=192.168.0.0/16
+kubeadm init --pod-network-cidr=10.244.0.0/16
+
+## Run as root, you need to add below line, otherwise kubectl will thow error
+
+export KUBECONFIG=/etc/kubernetes/admin.conf
+
+kubectl apply -f https://docs.projectcalico.org/v3.8/manifests/canal.yaml
+
 
 ## To start using your cluster, you need to run (as a regular user):
 
-sudo cp /etc/kubernetes/admin.conf $HOME/
+mkdir -p $HOME/.kube
 
-sudo chown $(id -u):$(id -g) $HOME/admin.conf
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 
-export KUBECONFIG=$HOME/admin.conf
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
 
 ## Will see CoreDNS is pending
 kubectl get pods --all-namespaces
@@ -46,15 +58,6 @@ kubectl get pods --all-namespaces
 ## let the only master can run pod
 
 kubectl taint nodes --all node-role.kubernetes.io/master-
-
-## As normal user
-
-## mkdir -p $HOME/.kube
-
-## sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-
-## sudo chown $(id -u):$(id -g) $HOME/.kube/config
-
 
 ## make the anonymous user can access the api url
 
