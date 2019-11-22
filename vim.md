@@ -130,6 +130,12 @@ V visual lines
 
 :set nu!      hide line number
 
+:set sw=4     shiftwidth 4
+
+:set ts=4     tabstop 4
+
+:set expandtab
+
 ## Copy & Paste
 
 dd    cut current line
