@@ -1,5 +1,7 @@
 # Terminal command line shortcut
 
+C -   Undo last
+
 C a   Back to line start
 
 C e   Go to line end
@@ -31,6 +33,8 @@ C s   Search command
 C r   Back Search command
 
 C y   Paste command
+
+C xx  Switch between cursor and line start
 
 opt b Move one word back
 
