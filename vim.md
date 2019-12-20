@@ -243,3 +243,17 @@ or
 :tabfirst first tab
 
 :tablast  last tab
+
+## resize
+
+Horizontal splits
+
+10 CTRL+w -
+
+30 CTRL+w +
+
+Vertical splits
+
+10 CTRL+w < (decrease)
+
+30 CTRL+w > (increase)
