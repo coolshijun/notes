@@ -35,6 +35,10 @@ prefix-"  Split Vertically
 
 prefix-%  Split Horizontally
 
+prefix- ⌥-↑ Resize pane ↑
+
+prefix- ⌥-↓ Resize pane ↓
+
 prefix-x  Close current pane
 
 C-d       Close current pane
