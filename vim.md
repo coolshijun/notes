@@ -4,6 +4,10 @@
 
 gg , dG    Goto first line, delete till last line
 
+## Select to end of file
+
+v ,  ctrl+end select to end of last line
+
 ## Motion
 
 h,j,k,l   Left, Down, Up, Right
