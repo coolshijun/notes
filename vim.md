@@ -1,5 +1,9 @@
 # VIM Shortcuts
 
+## Clear content
+
+gg , dG    Goto first line, delete till last line
+
 ## Motion
 
 h,j,k,l   Left, Down, Up, Right
