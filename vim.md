@@ -1,4 +1,10 @@
-# VIM Shortcuts
+# Tricks
+
+## show whitespace
+
+:set list
+
+:set nolist
 
 ## Clear content
 
@@ -7,6 +13,8 @@ gg , dG    Goto first line, delete till last line
 ## Select to end of file
 
 v ,  ctrl+end select to end of last line
+
+# VIM Shortcuts
 
 ## Motion
 
