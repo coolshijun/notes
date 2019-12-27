@@ -1,6 +1,8 @@
 
 Default prefix - > ctrl + b
 
+# tricks
+prefix-[ , then arrows to scroll up/down
 
 # tmux commands
 
