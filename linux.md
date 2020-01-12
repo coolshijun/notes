@@ -37,6 +37,8 @@ du --help
 ## calculate disk usage for directory deepth 1 for human
 du -d1 -h
 
+du -hd1
+
 ## show total usage for current folder
 du -sh
 
