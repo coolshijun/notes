@@ -18,3 +18,7 @@ Normally you don't need this option. All sorts of GET, HEAD, POST and PUT reques
 This option only changes the actual word used in the HTTP request, it does not alter the way curl behaves. So for example if you want to make a proper HEAD request, using -X HEAD will not suffice. You need to use the -I, --head option.
 
 The method string you set with -X, --request will be used for all requests, which if you for example use -L, --location may cause unintended side-effects when curl doesn't change request method according to the HTTP 30x response codes - and similar.
+
+--data-urlencode
+
+This posts data, similar to the other --data options with the exception that this performs URL-encoding. To be CGI-compliant, the <data> part should begin with a name followed by a separator and a content specification.
