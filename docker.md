@@ -3,6 +3,14 @@ curl http://localhost connection refused
 
 curl http://docker.for.mac.localhost will work, refer to https://stackoverflow.com/questions/44014698/docker-failed-to-connect-to-localhost-port-4000-connection-refused
 
+ping docker.for.mac.localhost
+192.168.65.2
+
+ping localhost
+127.0.0.1
+
+
+
 # Install docker ce on Ubuntu
 
 ## remove old version
