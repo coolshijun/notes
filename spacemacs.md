@@ -15,4 +15,11 @@ dotspacemacs-line-numbers t
 ```
 (when (executable-find "ipython")
   (setq python-shell-interpreter "ipython"))
+
+(setq eclim-eclipse-dirs '("/Applications/Eclipse.app/Contents/Eclipse")
+      eclim-executable "/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclim_2.8.0/bin/eclim"
+      eclimd-default-workspace "/Users/simon/Development/eclipse")
+
+(setq multi-term-program "/usr/local/bin/fish")
+(setq explicit-shell-file-name "/usr/local/bin/fish")
 ```
