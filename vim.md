@@ -29,6 +29,8 @@ v ,  ctrl+end select to end of last line
 
 ## Motion
 
+\`\`  back to previous position
+
 h,j,k,l   Left, Down, Up, Right
 
 ^ Begin of line
