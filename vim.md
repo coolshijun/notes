@@ -5,6 +5,12 @@ https://vimawesome.com/
 
 # Tricks
 
+## disable error bell
+
+:set belloff=all      or  :set bo=all
+
+:set belloff=""       or  :set bo=""
+
 ## quit
 
 ZZ  quit with file saved
