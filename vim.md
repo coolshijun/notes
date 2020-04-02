@@ -5,6 +5,12 @@ https://vimawesome.com/
 
 # Tricks
 
+## quit
+
+ZZ  quit with file saved
+
+ZQ  quit without saving
+
 ## show whitespace
 
 :set list
