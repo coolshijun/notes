@@ -1,3 +1,8 @@
+# Plugins
+
+https://vimawesome.com/
+
+
 # Tricks
 
 ## show whitespace
