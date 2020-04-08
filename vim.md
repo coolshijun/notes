@@ -1,3 +1,13 @@
+# Tab
+
+:tabnew
+
+1gt,2gt,3gt Go to tab 1, 2, 3
+
+gt, gT  switch tab
+
+:tabc Close tab
+
 # Swap windows
 
 CRTL+w x  Swith window with next
