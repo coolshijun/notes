@@ -1,3 +1,10 @@
+# Swap windows
+
+CRTL+w x  Swith window with next
+
+CRTL+w r  Rotate windows
+
+
 # Buffers
 
 :ls     List all buffers
