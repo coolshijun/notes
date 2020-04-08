@@ -1,3 +1,15 @@
+# Buffers
+
+:ls     List all buffers
+
+:b1 :b2 Switch to buffer 1
+
+CTRL+I  Switch jumped from 
+
+CTRL+O  back to jumped from
+
+CTRL+^  Toggle between current and last buffer
+
 # Plugins
 
 https://vimawesome.com/
