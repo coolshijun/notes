@@ -1,3 +1,35 @@
+# oh my tmux
+
+https://github.com/gpakosz/.tmux
+
+# omt commands
+prefix -> ctrl+b or ctrl+a
+
+prefix C-c create a new session
+
+prefix C-f switch to another session by name
+
+prefix C-h / C-l navigate windows
+
+prefix Tab navigate to last active window
+
+prefix -   split current pane vertically
+
+prefix _   split current pane horizontally
+
+prefix h j k l navigate panes
+
+prefix H J K L resize pane
+
+prefix < > swap pane
+
+prefix +  maximize pane to window
+
+prefix m toggle mouse mode
+
+
+
+# normal tmux
 
 Default prefix - > ctrl + b
 
