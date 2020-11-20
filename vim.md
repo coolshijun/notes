@@ -1,3 +1,6 @@
+
+https://vim.rtorr.com/lang/zh_cn
+
 # Tab
 
 :tabnew
