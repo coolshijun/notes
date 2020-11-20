@@ -1,3 +1,5 @@
+https://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/keyboard_shortcuts_osx.html
+
 # Editing
 
 
