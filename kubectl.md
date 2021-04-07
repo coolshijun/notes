@@ -1,3 +1,9 @@
+# Copy file
+## if pod contains more than 1 container, use -c to specify which container
+## otherwise it will use default container automatically
+
+kubectl cp my-file namespace/my-pod:/path/file -c my-container-name
+
 # Kubectl commands
 
 kubectl get pods --all-namespaces
