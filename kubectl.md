@@ -4,6 +4,23 @@
 
 kubectl cp my-file namespace/my-pod:/path/file -c my-container-name
 
+### by default it will copy from current workdir
+### get current workdir from origin pod
+
+kubectl exec -it mypod -c my-container-name -- pwd
+
+### copy from relative path
+kubectl cp namespace/my-pod:path/file -c my-container-name /path/file
+
+### if want to copy from absolute path, have to change path first
+### '-C /' means change to root folder, then path/file means /path/file
+
+kubectl exec mypod -c my-container-name -- tar cf - -C / path/file | tar xf - -C ./subfolder
+
+or 
+
+kubectl exec mypod -c my-container-name -- tar cf - -C / path/file | tar xf - -C /folder/subfolder
+
 # Kubectl commands
 
 kubectl get pods --all-namespaces
