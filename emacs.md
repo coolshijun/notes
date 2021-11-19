@@ -191,3 +191,6 @@ http://book.emacs-china.org/
 
 https://www.cnblogs.com/youge/p/4518739.html
 
+https://practical.li/spacemacs/spacemacs-basics/
+
+
