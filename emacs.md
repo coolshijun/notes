@@ -124,6 +124,10 @@ C-o User another windows to display file, but not select that window
 
 ^ Visit parent directory
 
+d Flag this file for deletion
+
+x Delete files flagged for deletion
+
 ## Editing
 
 \<DEL\> Delete a character before cursor
