@@ -24,6 +24,7 @@ dotspacemacs-line-numbers t
 (setq explicit-shell-file-name "/usr/local/bin/fish")
 ```
 
+```
 SPC s c remove highlight
 
 **** Files manipulations key bindings
@@ -309,3 +310,4 @@ Git commands (start with ~g~):
 | ~SPC g m~   | display the last commit message of the current line |
 | ~SPC g t~   | launch the git time machine                         |
 | ~SPC g U~   | unstage current file                                |
+```
