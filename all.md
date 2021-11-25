@@ -25,6 +25,8 @@
 
 ^ + r   search command history
 
+^ + s   search command history
+
 ^ + g   cancel search history
 
 ^ + a   move to start of line
@@ -48,6 +50,11 @@
 ⌥ + backspace or ^ + w  delete one word back from current cursor
 
 ⌥ + .   loop history commands
+
+^ + p   previous command
+
+^ + n   next command
+
 
 
 
