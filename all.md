@@ -56,8 +56,36 @@
 ^ + n   next command
 
 
+## vim
 
+:Ex   Open netrw
 
+:Rex  or ^ + o Back to netrw
 
+i     cycle through tree listing
+
+CTRL + ^  back and forth
+
+J join lines
+
+/ find
+
+? find rev.
+
+\# find prev identical
+
+\* find next indetical
+
+\`\` back to previous position
+
+CRTL+w x  Swith window with next
+
+CRTL+w r  Rotate windows
+
+CTRL+I  Switch jumped from 
+
+CTRL+O  back to jumped from
+
+CTRL+^  Toggle between current and last buffer
 
 
