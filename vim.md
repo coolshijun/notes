@@ -17,6 +17,17 @@ CRTL+w x  Swith window with next
 
 CRTL+w r  Rotate windows
 
+CRTL+w o  Focus on current window and close others
+
+CRTL+W s  split window
+
+CRTL+W v  split vertically
+
+# Swap line up/down
+
+SHIFT + UP  swap current line up
+
+SHIFT + DOWN swap current line down
 
 # Buffers
 
@@ -202,6 +213,8 @@ V visual lines
 :set ts=4     tabstop 4
 
 :set expandtab
+
+:set mouse=a  enable mouse
 
 ## Copy & Paste
 
