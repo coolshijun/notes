@@ -23,6 +23,8 @@ CRTL+W s  split window
 
 CRTL+W v  split vertically
 
+CRTL+W q  quit window
+
 # Swap line up/down
 
 SHIFT + UP  swap current line up
@@ -40,6 +42,19 @@ CTRL+I  Switch jumped from
 CTRL+O  back to jumped from
 
 CTRL+^  Toggle between current and last buffer
+
+
+# netrw
+
+:Ex   open netrw in current window
+
+:Sex  open netrw in horizontal split
+
+:Vex  open netrw in vertical split
+
+i   to cycle through views
+
+I   to remove banner
 
 # Plugins
 
