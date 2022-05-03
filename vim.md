@@ -44,6 +44,8 @@ SHIFT + DOWN swap current line down
 
 :b1 :b2 Switch to buffer 1
 
+:bd     unload current buffer
+
 CTRL+I  Switch jumped from 
 
 CTRL+O  back to jumped from
