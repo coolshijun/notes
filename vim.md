@@ -1,6 +1,13 @@
 
 https://vim.rtorr.com/lang/zh_cn
 
+# level vim and resume
+
+CRTL+Z to leave vi
+# execute commands in command lines
+fg #back to vi
+
+
 # Tab
 
 :tabnew
