@@ -53,3 +53,7 @@ iptables -t nat -A PREROUTING -p tcp -d 10.66.136.183 --dport 8080 -j DNAT --to-
 
 sudo kubectl create clusterrolebinding cluster-system-anonymous --clusterrole=cluster-admin --user=system:anonymous
 
+10. Kubectl context
+
+kubectl config set-context --current --namespace yh
+
