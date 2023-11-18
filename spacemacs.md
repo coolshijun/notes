@@ -1,3 +1,30 @@
+## key bindings
+
+### toggle pop shell
+SPC '
+
+### toggle treemacs
+SPC p t
+
+SPC f t
+
+### treemacs go to upper dir
+⌥ + SHIFT + H 
+
+### treemacs drill down to dir
+⌥ + SHIFT + L
+
+### switch to treemacs
+SPC w w
+
+SPC 0
+
+### jump to another file
+SPC f j
+
+
+
+
 ## custom parameters
 ```
 (shell :variables
