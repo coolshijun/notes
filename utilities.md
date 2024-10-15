@@ -12,3 +12,7 @@ https://it-tools.tech/
 
 https://www.plantuml.com/
 
+# Design
+
+https://www.canva.com/
+
