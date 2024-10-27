@@ -55,3 +55,22 @@ Data and API
 https://learn.hex.tech/docs
 
 
+Cheatsheet
+
+https://vim.rtorr.com/lang/zh_cn
+
+https://xiniushu.com/
+
+
+
+lightweight database migration tool for usage with the SQLAlchemy Database Toolkit for Python.
+
+https://alembic.sqlalchemy.org/en/latest/
+
+
+Ollama + HuggingFace ✅🔥
+
+https://medium.com/@sudarshan-koirala/ollama-huggingface-8e8bc55ce572
+
+
+
