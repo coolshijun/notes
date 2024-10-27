@@ -50,4 +50,8 @@ https://github.com/jaywcjlove/awesome-mac
 
 
 
+Data and API
+
+https://learn.hex.tech/docs
+
 
