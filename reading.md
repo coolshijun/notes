@@ -70,7 +70,16 @@ https://alembic.sqlalchemy.org/en/latest/
 
 Ollama + HuggingFace ✅🔥
 
+
+https://blog.halfcoffee.com/docs/ai/ainote
+
+https://learning-cloud-native-go.github.io/docs/hello-world-server/
+
+https://gobyexample.com/
+
 https://medium.com/@sudarshan-koirala/ollama-huggingface-8e8bc55ce572
+
+
 
 
 
